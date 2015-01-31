@@ -40,6 +40,6 @@ class ContextMenu extends \yii\base\Widget
         ContextMenuAsset::register($view);
 
         $options = Json::encode($this->options);
-        $view->registerJs('$.contextMenu( ' .$options .');');
+        $view->registerJs('$(document).contextmenu( ' .$options .');');
     }
 }

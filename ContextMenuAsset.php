@@ -10,7 +10,7 @@ namespace demogorgorn\cxmenu;
 class ContextMenuAsset extends \yii\web\AssetBundle
 {
 
-	public $sourcePath = '@bower/jQuery-contextMenu/src';
+	public $sourcePath = '@npm/jquery-ui-contextmenu';
 
 	/**
      * @inheritdoc
@@ -43,8 +43,8 @@ class ContextMenuAsset extends \yii\web\AssetBundle
      */
     public function init()
     {
-        $this->setupAssets('css', ['jquery.contextMenu']);
-        $this->setupAssets('js', ['jquery.contextMenu']);
+        /*$this->setupAssets('css', ['jquery.contextMenu']);*/
+        $this->setupAssets('js', ['jquery.ui-contextmenu']);
         parent::init();
     }
 }

@@ -18,7 +18,7 @@
 	"require": {
 		"yiisoft/yii2": "*",
 		"yiisoft/yii2-jui": "*",
-		"bower-asset/jQuery-contextMenu": "*"
+		"npm-asset/ui-contextmenu": "*"
 	},
 	"autoload": {
 		"psr-4": { "demogorgorn\\cxmenu\\": "" }
