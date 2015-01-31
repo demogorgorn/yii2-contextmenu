@@ -1,9 +1,9 @@
 <?php
 /**
- * @package   yii2-context-menu
- * @author    Kartik Visweswaran <kartikv2@gmail.com>
- * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2014
- * @version   1.3.0
+ * @package   yii2-contextmenu
+ * @author    Oleg Martemjanov <demogorgorn@gmail.com>
+ * @copyright Copyright &copy; Oleg Martemjanov, foreign.by, 2015
+ * @version   1.6.6
  */
 namespace demogorgorn\cxmenu;
 use Yii;
@@ -13,15 +13,7 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\JsExpression;
 use yii\web\View;
-/**
- * A context menu extension for Bootstrap 3.0, which allows you to access
- * a context menu for a specific area on mouse right click.
- * Based on bootstrap-contextmenu jquery plugin by sydcanem.
- *
- * @see https://github.com/sydcanem/bootstrap-contextmenu
- * @author Kartik Visweswaran <kartikv2@gmail.com>
- * @since 1.0
- */
+
 class ContextMenu extends \yii\base\Widget
 {
 
