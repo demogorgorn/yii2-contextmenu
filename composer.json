@@ -1,0 +1,26 @@
+{
+	"name": "demogorgorn/yii2-contextmenu",
+	"description": "The yii2-contextmenu widget is a Yii 2 wrapper for the contextMenu is a management facility for - you guessed it - context menus",
+	"keywords": ["yii2", "extension", "widget", "menu", "contextmenu"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/demogorgorn/yii2-contextmenu/issues",
+		"wiki": "https://github.com/demogorgorn/yii2-contextmenu/wiki/",
+		"source": "https://github.com/demogorgorn/yii2-contextmenu"
+	},
+	"authors": [
+		{
+			"name": "Oleg Martemjanov",
+			"email": "demogorgorn@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-jui": "*",
+		"bower-asset/jQuery-contextMenu": "*"
+	},
+	"autoload": {
+		"psr-4": { "demogorgorn\\cxmenu\\": "" }
+	}
+}
