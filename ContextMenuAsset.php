@@ -10,7 +10,7 @@ namespace demogorgorn\cxmenu;
 class ContextMenuAsset extends \yii\web\AssetBundle
 {
 
-	public $sourcePath = '@npm/ui-contextmenu';
+	public $sourcePath = '@bower/ui-contextmenu';
 
 	/**
      * @inheritdoc
